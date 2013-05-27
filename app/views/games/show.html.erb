@@ -1,3 +1,17 @@
-<h2><%= @game.date %></h2>
+<h2><%= @game.opponent %></h2>
+<ul>
+  <li><%= @game.date %> at <%= @game.time %></li>
+  <li><%= @game.location %></li>
+  <li>
+    <% if @game.location == "Husky Stadium" %>
+      <%= @game.attending %>, <%= @game.tailgate %>
+    <% else %>
+      <%= @game.tv %>
+    <% end %>
+  </li>
+</ul>
+
+
 <%= link_to "Edit Game", edit_game_path(@game) %>
-<%= link_to "Delete Game", game_path(@game), method: :delete, confirm: "Are you sure you want to delete this game?" %>
+<%= link_to "Delete Game", game_path(@game), method: :delete, confirm: "Are you sure you want to delete this game?" %><br>
+<%= link_to "View all Games", games_path %>
