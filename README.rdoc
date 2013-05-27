@@ -5,3 +5,7 @@ This app keeps track of Husky football games, including date, opponent, location
 I built CRUD from scratch and utilized BDD to ensure all features are working properly. I did not include presence validations because often many details of a game are not known initially so it is appropriate to leave those fields blank (e.g. time of kickoff and tv coverage).
 
 Eventually a 'fans' resource could be created, such that each games list will belong to a fan. This way, each fan will have their own personalized schedule with games and tailgates they plan to attend.
+
+![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot1.png)
+
+![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot2.png)
