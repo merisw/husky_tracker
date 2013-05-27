@@ -1,0 +1,32 @@
+<%= form_for(@game) do |f| %>
+  <p>
+    <%= f.label :date %>
+    <%= f.text_field :date %>
+  </p>
+
+  <p>
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </p>
+
+  <p>
+    <%= f.label :opponent %>
+    <%= f.text_field :opponent %>
+  </p>
+
+  <p>
+    <%= f.label :time %>
+    <%= f.text_field :time %>
+  </p>
+
+  <p>
+    <%= f.label :tv %>
+    <%= f.text_field :tv %>
+  </p>
+
+  <p>
+    <%= f.label :outcome %>
+    <%= f.text_field :outcome %>
+  </p>
+  <%= f.submit %>
+<% end %>
