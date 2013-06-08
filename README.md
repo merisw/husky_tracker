@@ -13,4 +13,3 @@ Eventually a 'fans' resource could be created, such that each games list will be
 ![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot5.png)
 
 ![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot6.png)
-
