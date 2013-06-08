@@ -6,6 +6,11 @@ I built CRUD from scratch and utilized BDD to ensure all features are working pr
 
 Eventually a 'fans' resource could be created, such that each games list will belong to a fan. This way, each fan will have their own personalized schedule with games and tailgates they plan to attend.
 
-![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot1.png)
+![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot3.png)
 
-![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot2.png)
+![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot4.png)
+
+![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot5.png)
+
+![ScreenShot](https://raw.github.com/merisw/husky_tracker/master/app/assets/images/screenshot6.png)
+

@@ -7,11 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% flash.each do |key, value| %>
-  <div class='flash' id='<%= key %>'>
-    <%= value %>
+  <div id="nav">
+    Language:
+    <%= link_to_unless_current "English", locale: "en" %> |
+    <%= link_to_unless_current "Italian", locale: "it" %> |
+    <%= link_to_unless_current "Spanish", locale: "es" %> |
+    <%= link_to_unless_current "Finnish", locale: "fi" %>
   </div>
-<% end %>
+
+  <% flash.each do |key, value| %>
+    <div class='flash' id='<%= key %>'>
+      <%= value %>
+    </div>
+  <% end %>
 <%= yield %>
 
 </body>

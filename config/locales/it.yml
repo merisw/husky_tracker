@@ -1,0 +1,10 @@
+
+
+it:
+  game:
+    new: "Nuova Partita"
+    view: "Mostra tutte le Partite"
+    edit: "Cambia Partita"
+    delete: "Cancella Partita"
+    delete_confirm: "Sei sicuro vuoli cancellare questa partita?"
+

@@ -1,6 +1,6 @@
 <h2><%= @game.opponent %></h2>
 <ul>
-  <li><%= @game.date %> at <%= @game.time %></li>
+  <li><%= @game.date.to_s(:long) %> at <%= @game.time.strftime("%I:%M %p") %></li>
   <li><%= @game.location %></li>
   <li>
     <% if @game.location == "Husky Stadium" %>
@@ -12,6 +12,6 @@
 </ul>
 
 
-<%= link_to "Edit Game", edit_game_path(@game) %>
-<%= link_to "Delete Game", game_path(@game), method: :delete, confirm: "Are you sure you want to delete this game?" %><br>
-<%= link_to "View all Games", games_path %>
+<%= link_to t("game.edit"), edit_game_path(@game) %>
+<%= link_to t("game.delete"), game_path(@game), method: :delete, confirm: t("game.delete_confirm") %><br>
+<%= link_to t("game.view"), games_path %>

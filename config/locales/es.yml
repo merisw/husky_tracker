@@ -1,0 +1,10 @@
+
+
+es:
+  game:
+    new: "Nuevo Partido"
+    view: "Mostra todos los Partidos"
+    edit: "Edita Partido"
+    delete: "Borra Partido"
+    delete_confirm: "Are you sure you want to delete this game?"
+

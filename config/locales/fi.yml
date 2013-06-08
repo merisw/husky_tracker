@@ -1,0 +1,10 @@
+
+
+fi:
+  game:
+    new: "Uusi Peli"
+    view: "Tarkestellaa Kaikki Pelit"
+    edit: "Toimittaa Pelin"
+    delete: "Poistaa Pelin"
+    delete_confirm: "Are you sure you want to delete this game?"
+

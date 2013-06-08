@@ -1,6 +1,6 @@
-<%= link_to "New Game", new_game_path %>
+<%= link_to t("game.new"), new_game_path %>
 <ul>
   <% @games.each do |game| %>
-    <li><%= link_to game.date, game %>  vs. <%= game.opponent %>  <%= game.outcome %></li>
+    <li><%= link_to game.date.to_s(:long), game %>  vs. <%= game.opponent %>  <%= game.outcome %></li>
   <% end %>
 </ul>
