@@ -1,4 +1,5 @@
 Welcome to Husky Tracker!
+=========================
 
 This app keeps track of Husky football games, including date, opponent, location, time, tv coverage, and outcome. It also keeps track of "attending." Depending on preference, this field can be a 'yes'/'no' or a list of people you are attending with. The "tailgate" can similarly be 'yes'/'no', or a more detailed record of which tailgate will be attended and what food and beverage to bring. Once the game is over, it can be updated with the outcome (W/L and score). All game fields can be updated, for instance in the event that a game is rescheduled.
 
